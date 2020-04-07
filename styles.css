@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/* Properties for dark mode */
 .dark-mode {
     background-color: #1e2836;
     color: white;
@@ -17,10 +18,12 @@ button.btn.btn-primary {
     border: 1px solid;
 }
 
+/* Place footer at bottom of page */
 main {
     min-height: 90vh;
 }
 
+/* Padding for content inside main element */
 div.container {
     padding: 0px 20px 40px 20px;
 }
@@ -29,10 +32,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Place image on center of page */
 .image {
     text-align: center;
 }
 
+/* Control size of image */
 .image img {
     height: 400px;
     padding: 20px;
@@ -43,6 +48,7 @@ footer {
     background-color: #007bff;
 }
 
+/* Properties for dark mode */
 footer.dark-mode {
     margin-top: auto;
     background-color: #343a40;
@@ -53,10 +59,12 @@ footer > div > p {
     color: white;
 }
 
+/* Padding for text inside footer */
 footer div.container {
     padding: 20px 0;
 }
 
+/* Override margin of Bootstrap "text-center" class */
 p.text-center {
     margin: 0;
 }
@@ -83,10 +91,8 @@ p.text-center {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    ...;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    ...;
 }

@@ -1,3 +1,2 @@
-## Welcome to my homepage
-
-This is an assignment for CS50x through edX.
+# homepage
+An assignment for CS50x pset8

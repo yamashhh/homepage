@@ -2,11 +2,13 @@ body {
     font-family: "Noto Sans JP", sans-serif;
     background-color: whitesmoke;
     padding-top: 80px;
-}
-
-body {
     display: flex;
     flex-direction: column;
+}
+
+.dark-mode {
+    background-color: #1e2836;
+    color: white;
 }
 
 button.btn.btn-primary {
@@ -39,6 +41,12 @@ h1 {
 footer {
     margin-top: auto;
     background-color: #007bff;
+}
+
+footer.dark-mode {
+    margin-top: auto;
+    background-color: #343a40;
+    color: white;
 }
 
 footer > div > p {

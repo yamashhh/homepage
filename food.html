@@ -28,138 +28,138 @@
         <title>This is my homepage.</title>
     </head>
     <body>
-        <div id="wrapper">
-            <header>
-                <nav
-                    class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary"
+        <header>
+            <nav
+                class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary"
+                id="nav"
+            >
+                <a class="navbar-brand" href="index.html"
+                    >This is my homepage.</a
                 >
-                    <a class="navbar-brand" href="index.html"
-                        >This is my homepage.</a
-                    >
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdownMenuLink"
-                                    role="button"
-                                    data-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdownMenuLink"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Favorites
+                            </a>
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdownMenuLink"
+                            >
+                                <a class="dropdown-item" href="music.html"
+                                    >Music</a
                                 >
-                                    Favorites
-                                </a>
-                                <div
-                                    class="dropdown-menu"
-                                    aria-labelledby="navbarDropdownMenuLink"
+                                <a class="dropdown-item" href="food.html"
+                                    >Food</a
                                 >
-                                    <a class="dropdown-item" href="music.html"
-                                        >Music</a
-                                    >
-                                    <a class="dropdown-item" href="food.html"
-                                        >Food</a
-                                    >
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <button
-                                    type="button"
-                                    class="btn btn-primary"
-                                    data-toggle="button"
-                                    aria-pressed="false"
-                                >
-                                    Change Theme
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-            <main>
-                <h1 class="text-center">My favorite food</h1>
-                <div class="container">
-                    <div class="embed-responsive embed-responsive-1by1">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.8962659993776!2d137.72612011560605!3d34.7077962804327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adfb7d621228d%3A0x1fd848daeda2e2cc!2ssonogo%20no%20kakeru!5e0!3m2!1sja!2sjp!4v1586160374318!5m2!1sja!2sjp"
-                            width="600"
-                            height="450"
-                            frameborder="0"
-                            style="border: 0;"
-                            allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0"
-                        ></iframe>
-                    </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button
+                                type="button"
+                                class="btn btn-primary"
+                                data-toggle="button"
+                                aria-pressed="false"
+                                onclick="changeTheme()"
+                            >
+                                Change Theme
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <div class="container">
-                    <div class="embed-responsive embed-responsive-1by1">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.971966975245!2d137.74966031560714!3d34.75629898042024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adfc4f0e5e369%3A0xdfc5cb9506e8e9ec!2z44GV44KP44KE44GLIOa1nOadvuacieeOieW6lw!5e0!3m2!1sja!2sjp!4v1586160595520!5m2!1sja!2sjp"
-                            width="600"
-                            height="450"
-                            frameborder="0"
-                            style="border: 0;"
-                            allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0"
-                        ></iframe>
-                    </div>
+            </nav>
+        </header>
+        <main>
+            <h1 class="text-center">My favorite food</h1>
+            <div class="container">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.8962659993776!2d137.72612011560605!3d34.7077962804327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adfb7d621228d%3A0x1fd848daeda2e2cc!2ssonogo%20no%20kakeru!5e0!3m2!1sja!2sjp!4v1586160374318!5m2!1sja!2sjp"
+                        width="600"
+                        height="450"
+                        frameborder="0"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"
+                    ></iframe>
                 </div>
-                <div class="container">
-                    <div class="embed-responsive embed-responsive-1by1">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.0917457640135!2d139.72176111562663!3d35.6254646802073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188afafdbd1e1d%3A0xa051bd9d6bc72ef7!2z44GK44Gr44KE44KT44G-IOS6lOWPjeeUsOacrOW6lw!5e0!3m2!1sja!2sjp!4v1586160845997!5m2!1sja!2sjp"
-                            width="600"
-                            height="450"
-                            frameborder="0"
-                            style="border: 0;"
-                            allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0"
-                        ></iframe>
-                    </div>
+            </div>
+            <div class="container">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.971966975245!2d137.74966031560714!3d34.75629898042024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adfc4f0e5e369%3A0xdfc5cb9506e8e9ec!2z44GV44KP44KE44GLIOa1nOadvuacieeOieW6lw!5e0!3m2!1sja!2sjp!4v1586160595520!5m2!1sja!2sjp"
+                        width="600"
+                        height="450"
+                        frameborder="0"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"
+                    ></iframe>
                 </div>
-                <div class="container">
-                    <div class="embed-responsive embed-responsive-1by1">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.089877144594!2d139.7446960222038!3d35.650157205672734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bb7c53fd149%3A0x7ea02bb4b9359f00!2zTVVOQ0gnUyBCVVJHRVIgU0hBQ0sg6Iqd5YWs5ZyS5pys5bqX!5e0!3m2!1sja!2sjp!4v1586160887285!5m2!1sja!2sjp"
-                            width="600"
-                            height="450"
-                            frameborder="0"
-                            style="border: 0;"
-                            allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0"
-                        ></iframe>
-                    </div>
+            </div>
+            <div class="container">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.0917457640135!2d139.72176111562663!3d35.6254646802073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188afafdbd1e1d%3A0xa051bd9d6bc72ef7!2z44GK44Gr44KE44KT44G-IOS6lOWPjeeUsOacrOW6lw!5e0!3m2!1sja!2sjp!4v1586160845997!5m2!1sja!2sjp"
+                        width="600"
+                        height="450"
+                        frameborder="0"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"
+                    ></iframe>
                 </div>
-            </main>
-            <footer>
-                <div class="container">
-                    <p class="text-center">
-                        &copy; Copyright Shogo Yamato 2020
-                    </p>
+            </div>
+            <div class="container">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.089877144594!2d139.7446960222038!3d35.650157205672734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bb7c53fd149%3A0x7ea02bb4b9359f00!2zTVVOQ0gnUyBCVVJHRVIgU0hBQ0sg6Iqd5YWs5ZyS5pys5bqX!5e0!3m2!1sja!2sjp!4v1586160887285!5m2!1sja!2sjp"
+                        width="600"
+                        height="450"
+                        frameborder="0"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"
+                    ></iframe>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="container">
+                <p class="text-center">
+                    &copy; Copyright Shogo Yamato 2020
+                </p>
+            </div>
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script
@@ -177,5 +177,7 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"
         ></script>
+        <!-- My own JavaScript -->
+        <script src="script.js"></script>
     </body>
 </html>

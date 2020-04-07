@@ -43,6 +43,12 @@ footer {
     background-color: #007bff;
 }
 
+footer.dark-mode {
+    margin-top: auto;
+    background-color: #343a40;
+    color: white;
+}
+
 footer > div > p {
     color: white;
 }
